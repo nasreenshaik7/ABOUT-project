@@ -1,0 +1,40 @@
+.root{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    --varible-color:#e2e9ee;
+
+
+}
+
+.boxA{
+    background-color: var(--varible-color);
+
+}
+.boxA .box1{
+
+    display: flex;
+    align-items: left;
+    padding: 20px;
+
+}
+.boxA .box1 .box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    padding: 20px;
+
+}
+
+.boxA .box1 .box2 .btn1, .btn2, .btn3 , .btn4, .btn5{
+    font-size: medium;
+    border: none;
+    color: var(--varible-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+} 
