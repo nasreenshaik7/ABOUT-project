@@ -11,37 +11,67 @@
         <section class="main-section">
             <div class="box1">
                 <div class="box2">
-                    <button class="btn1" onclick="loginsection()"><a href="login-section" target="_self" style="text-decoration: none;">login</a></button>
-                    <button class="btn2" onclick="listsection()"><a href="list-section" target="_self" style="text-decoration: none;">list</a></button>
-                    <button class="btn3" onclick="incidentsection()"><a href="incident-section" target="_self" style="text-decoration: none;">incident</a></button>
-                    <button class="btn4" onclick="reportssection()"><a href="reports-section" target="_self" style="text-decoration: none;">reports</a></button>
-                    <button class="btn5" onclick="servicenowhelpsection()"><a href="login-section" target="_self" style="text-decoration: none;">login</a>servicenowhelpsection</button>
+                    <button class="btn1" onclick="showSection('login-section')">Login</button>
+                    <button class="btn2" onclick="showSection('list-section')">List</button>
+                    <button class="btn3" onclick="showSection('incident-section')">Incident</button>
+                    <button class="btn4" onclick="showSection('reports-section')">Reports</button>
+                    <button class="btn5" onclick="showSection('servicenowhelp-section')">ServiceNow Help</button>
                 </div>
             </div>
 
         </section>
         <section class="login-section" id="login-section">
-            <div class="boxB">
+           <div class="boxA">
+            <h2>Login section</h2>
+            <p> this the login content page</p>
             </div>
 
         </section>
         <section class="list-section" id="list-section">
-            <div class="">
+            <div class="boxA">
+                <h2>List section</h2>
+            <p> this the list content page</p>
 
             </div>
         </section>
         <section class="incident-section" id="incident-section">
+            <div class="boxA">
+                <h2>Incident section</h2>
+            <p> this the incident content page</p>
+
+            </div>
         
         </section>
         <section class="reports-section" id="reports-section">
+            <div class="boxA">
+                <h2>Reports section</h2>
+            <p> this the reports content page</p>
+
+            </div>
 
         </section>
 
         <section class="servicenowhelp-section" id="servicenowhelp-section">
+            <div class="boxA">
+                <h2>ServiceNow Help section</h2>
+            <p> this the servicenow help content page</p>
+            <div>
+            <h3>ServiceNow Resources</h3>
+                <ul>
+                    <li><a href="https://www.servicenow.com" target="_blank">ServiceNow Official Website</a></li>
+                    <li><a href="https://developer.servicenow.com" target="_blank">ServiceNow Developer Portal</a></li>
+                    <li><a href="https://docs.servicenow.com" target="_blank">ServiceNow Documentation</a></li>
+                    <li><a href="https://community.servicenow.com" target="_blank">ServiceNow Community</a></li>
+                    <li><a href="https://www.servicenow.com/products/it-service-management.html" target="_blank">IT Service Management (ITSM)</a></li>
+                    <li><a href="https://www.servicenow.com/products/customer-service-management.html" target="_blank">Customer Service Management (CSM)</a></li>
+                    <li><a href="https://www.servicenow.com/services/training-and-certification.html" target="_blank">Training & Certification</a></li>
+                    <li><a href="https://www.servicenow.com/community/now-support-forum/bd-p/community" target="_blank">Now Support Forum</a></li>
+                </ul>
+            </div>
 
         </section>
     </div>
 
-    
+    <script src="sj.js"></script>
 </body>
 </html>

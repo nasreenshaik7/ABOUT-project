@@ -1,13 +1,15 @@
-.root{
-    background-color: #f0f0f0;
+:root {
+    --varible-color: #202021;
     font-family: Arial, sans-serif;
-    --varible-color:#e2e9ee;
-
-
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
 .boxA{
-    background-color: var(--varible-color);
+    background-color: white;
 
 }
 .boxA .box1{
@@ -38,3 +40,16 @@
     cursor: pointer;
     border-radius: 12px;
 } 
+.login-section, .list-section, .incident-section, .reports-section, .servicenowhelp-section{
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+.login-section.active, .list-section.active, .incident-section.active, .reports-section.active, .servicenowhelp-section.active{
+    display: block;
+}
+.login-section .A, .list-section .A, .incident-section .A, .reports-section .A, .servicenowhelp-section .A{
+    padding: 20px;
+    border-radius: 12px;
+}
